@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.stringcalculator.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec <<< FAILURE!
+com.mycompany.stringcalculator.CalculatorTest.testNegativeNumber()  Time elapsed: 0.009 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <This is expected because: > but was: <Negative numbers are not allowed. You entered [-5, -4]>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at com.mycompany.stringcalculator.CalculatorTest.testNegativeNumber(CalculatorTest.java:84)
+
